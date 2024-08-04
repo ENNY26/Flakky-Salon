@@ -51,3 +51,22 @@ document.addEventListener('DOMContentLoaded', function() {
     rightArrow.addEventListener('click', nextTestimonial);
     leftArrow.addEventListener('click', prevTestimonial);
 });
+
+
+
+
+ScrollReveal({
+    reset: true,
+    distance:'60px',
+    duration: 2500,
+    delay:400
+  });
+  ScrollReveal().reveal('#hero',{delay:500, origin:'left'});
+  ScrollReveal().reveal('.left',{delay: 500, origin:'left'});
+  ScrollReveal().reveal('.right',{delay: 800, origin:'right'});
+  ScrollReveal().reveal('#service ',{delay: 600, origin:''});
+  ScrollReveal().reveal('#testimonials',{delay: 600, origin:'bottom'});
+  ScrollReveal().reveal('#appointment ',{delay: 600, origin:'bottom'});
+  ScrollReveal().reveal('#map ',{delay: 600, origin:'bottom'});
+  ScrollReveal().reveal('#footer',{delay: 600, origin:'bottom'});
+  
